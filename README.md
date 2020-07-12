@@ -120,8 +120,8 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "page": 1,
-    "size": 2
+    "page": 1,
+    "size": 2
 }
 ```
 
@@ -139,9 +139,9 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "supplierName": "公司",
-    "stockNum": 100,
-    "type": "FIRM"
+    "supplierName": "公司",
+    "stockNum": 100,
+    "type": "FIRM"
 }
 ```
 ##### 发起订单
@@ -158,9 +158,9 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "supplierId": 1,
-    "firmId": 2,
-    "total": "200"
+    "supplierId": 1,
+    "firmId": 2,
+    "total": "200"
 }
 ```
 ##### 供应商发货（分批次发货）
@@ -176,8 +176,8 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "orderId":9,
-    "num":1
+    "orderId": 9,
+    "num": 1
 }       
 ```
 
