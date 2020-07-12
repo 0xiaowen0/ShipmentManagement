@@ -13,6 +13,10 @@ Our firm has trading arrangement with a supplier to ship goods to us. As part of
 业务：公司向供应商下单，然后供应商负责送货，可以分多次且每次数量不等。
 需求：不论拆单还是合单后，最后商品数量总数保持不变。
 
+|#|语法|效果|
+|---|---|----
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+|2|`![][code-past]`|![][code-past]
 ## 项目简介
 
 ![image](http://tie.027cgb.com/631145/show.jpg)
