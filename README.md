@@ -142,9 +142,9 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "supplierName": "公司",
-    "stockNum": 100,
-    "type": "FIRM"
+    "supplierName": "公司",
+    "stockNum": 100,
+    "type": "FIRM"
 }
 ```
 ##### 发起订单
