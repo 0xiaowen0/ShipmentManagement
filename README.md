@@ -8,8 +8,11 @@ https://github.com/0xiaowen0/ShipmentManagement)
 **Problem Statement **
 Our firm has trading arrangement with a supplier to ship goods to us. As part of trade agreement, the supplier agrees to ship X metric tons of goods in N number of shipments. N can be one or more. The supplier can alter the shipments allowing her to split or merge shipments.
 ## 需求分析
+
 角色：供应商、公司。
+
 业务：公司向供应商下单，然后供应商负责送货，可以分多次且每次数量不等。
+
 需求：不论拆单还是合单后，最后商品数量总数保持不变。
 
 ![image](https://github.com/0xiaowen0/ShipmentManagement/blob/master/show.png)
@@ -120,8 +123,8 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "page": 1,
-    "size": 2
+    "page":1,
+    "size":2
 }
 ```
 
@@ -139,9 +142,9 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "supplierName": "公司",
-    "stockNum": 100,
-    "type": "FIRM"
+    "supplierName":"公司",
+    "stockNum":100,
+    "type":"FIRM"
 }
 ```
 ##### 发起订单
@@ -158,9 +161,9 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "supplierId": 1,
-    "firmId": 2,
-    "total": "200"
+    "supplierId":1,
+    "firmId":2,
+    "total":200
 }
 ```
 ##### 供应商发货（分批次发货）
@@ -176,8 +179,8 @@ OrderDetails orderDetails1 = orderDetailsDao.save(orderDetails);
 ###### 示例
 ```json
 {
-    "orderId": 9,
-    "num": 1
+    "orderId":9,
+    "num":1
 }       
 ```
 
