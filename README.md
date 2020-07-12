@@ -13,13 +13,9 @@ Our firm has trading arrangement with a supplier to ship goods to us. As part of
 业务：公司向供应商下单，然后供应商负责送货，可以分多次且每次数量不等。
 需求：不论拆单还是合单后，最后商品数量总数保持不变。
 
-|#|语法|效果|
-|---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://tie.027cgb.com/631145/show.jpg)
-|2|`![][code-past]`|![][code-past]
-## 项目简介
+![baidu](http://tie.027cgb.com/631145/show.jpg
 
-![image](http://tie.027cgb.com/631145/show.jpg)
+## 项目简介
 采用SpringSecurity保证数据**安全性**。原子业务模块添加Transactional保证数据**一致性、完整性**，对参数对象封装，并添加@Valid数据接口校验。 增加全局异常捕获机**GlobalExceptionConfig**，并添加自定义异常**ApiException**。
 **系统环境**：jdk8以上
 **系统框架**：SpringBoot+SpringMvc+SpringSecurity+SpringJPA+Hibernate+MySql
