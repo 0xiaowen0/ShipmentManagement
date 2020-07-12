@@ -17,7 +17,7 @@ Our firm has trading arrangement with a supplier to ship goods to us. As part of
 
 
 
-![截图](https://github.com/0xiaowen0/ShipmentManagement/blob/master/show.png)
+![截图](http://tie.027cgb.com/631145/show.jpg)
 
 ## 项目简介
 采用SpringSecurity保证数据**安全性**。原子业务模块添加Transactional保证数据**一致性、完整性**，对参数对象封装，并添加@Valid数据接口校验。 增加全局异常捕获机**GlobalExceptionConfig**，并添加自定义异常**ApiException**。
