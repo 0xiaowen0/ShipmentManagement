@@ -15,7 +15,7 @@ Our firm has trading arrangement with a supplier to ship goods to us. As part of
 
 |#|语法|效果|
 |---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://tie.027cgb.com/631145/show.jpg)
 |2|`![][code-past]`|![][code-past]
 ## 项目简介
 
